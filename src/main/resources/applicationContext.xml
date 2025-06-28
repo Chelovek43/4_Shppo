@@ -11,18 +11,23 @@
         http://www.springframework.org/schema/aop
         https://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <!--ProductSelectionService, UserInputHandler-->
+    <!--ProductSelectionService, UserInputHandler
+    Автоматически регистрирует классы с аннотациями как бины-->
     <context:component-scan base-package="core, domain, services, aop"/>
 
+    <!--создаем прокси-объекты для бинов, к которым применяются аспекты, аннотация before
+    для loggingAspect создается прокси ProductFactory-->
     <aop:aspectj-autoproxy/>
 
     <!-- Фабрики продуктов -->
     <bean id="animalFactory" class="domain.products.AnimalProductFactory"/>
     <bean id="plantFactory" class="domain.products.PlantProductFactory"/>
 
-
     <bean id="userInputHandler" class="core.UserInputHandler"/>
 
-    <!-- Аспекты -->
+    <!-- Аспект -->
     <bean id="loggingAspect" class="aop.LoggingAspect"/>
+    <!--Либо только context+aop, user - дублирование, фабрики - компонент вместо xml -->
+    <!--@Component("plantFactory")
+    public class PlantProductFactory implements ProductFactory {...}-->
 </beans>
