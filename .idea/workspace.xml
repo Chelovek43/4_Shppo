@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="598b28d5-8553-4bcd-bb6a-389dcecc6e8e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Sppo/Desktop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/core/DietCycleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/core/FileStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/core/InputValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/core/ProductSelectionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/core/UserInputHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/core/UserInputService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/diet/CompositeDietCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/diet/DietCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/diet/DietPlan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/diet/DietRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/diet/Dietitian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/diet/ObservableDietPlan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/diet/SingleDietCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/nutrition/CalorieCalculationStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/nutrition/CalorieCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/nutrition/DietPlanObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/nutrition/HarrisBenedictStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/nutrition/LoggingObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/nutrition/MifflinStJeorStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/nutrition/NutritionTrackerObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/person/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/person/PersonDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/person/SlowMetabolismDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/products/AnimalProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/products/AnimalProductFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/products/PlantProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/products/PlantProductFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/products/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/domain/products/ProductFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/nutrition_diary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/Desktop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/SleepingDietitian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/core/DietCycleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/core/FileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/core/InputValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/core/ProductSelectionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/core/UserInputHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/core/UserInputService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/diet/CompositeDietCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/diet/DietCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/diet/DietPlan$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/diet/DietPlan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/diet/DietRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/diet/Dietitian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/diet/ObservableDietPlan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/diet/SingleDietCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/nutrition/CalorieCalculationStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/nutrition/CalorieCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/nutrition/DietPlanObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/nutrition/HarrisBenedictStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/nutrition/LoggingObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/nutrition/MifflinStJeorStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/nutrition/NutritionTrackerObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/person/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/person/PersonDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/person/SlowMetabolismDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/products/AnimalProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/products/AnimalProductFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/products/PlantProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/products/PlantProductFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/products/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/domain/products/ProductFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/nutrition_diary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/out/production/Desktop/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sppo/readme.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Lab2" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/Spring" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Sppo" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2y36mZDriZzp6ZUq6hew9L2Z9l6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Lab2 [:Main.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "9557abad",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ADMIN/Desktop/Lab2/src",
+    "settings.editor.selected.configurable": "File.Encoding"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Lab2\src" />
+      <recent name="C:\Users\ADMIN\Desktop\Lab2\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lab2.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="598b28d5-8553-4bcd-bb6a-389dcecc6e8e" name="Changes" comment="" />
+      <created>1749051069927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749051069927</updated>
+    </task>
+    <servers />
+  </component>
+</project>
